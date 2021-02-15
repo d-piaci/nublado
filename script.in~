@@ -1,0 +1,27 @@
+////////////////////////////////////
+title model_3
+////////////////////////////////////
+set punch prefix "model_3"
+distance = 300000000.0 parsecs linear
+print last
+CMB redshift 0.2000000
+stop temperature = 1000000K [linear]
+hden -2.5000000
+metals -1
+stop proton column density 15.500000
+table HM96
+iterate
+Print column densities on
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last heating ".heat"
+save last cooling ".cool"
+save last optical depth ".opd"
+save last element hydrogen ".ele_H"
+save last element oxygen ".ele_O"
+
+
+
+
