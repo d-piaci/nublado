@@ -1,0 +1,41 @@
+////////////////////////////////////
+title ASTR302
+////////////////////////////////////
+set punch prefix "ASTR302"
+hden = -0.750
+filling factor = 1.0
+distance = 300000000.0 parsecs linear
+iterate
+metals -1
+CONSTANT TEMPERATURE 1e03 K linear
+CMB redshift 0.2000000
+no molecules
+table HM96
+Print column densities on
+stop proton column density 15.500000
+stop temperature = 10000K [linear]
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last heating ".heat"
+save last cooling ".cool"
+save last optical depth ".opd"
+save last element hydrogen ".ele_H"
+save last element helium ".ele_He"
+save last element carbon ".ele_C"
+save last element nitrogen ".ele_N"
+save last element oxygen ".ele_O"
+save last element argon ".ele_Ar"
+save last element neon ".ele_Ne"
+save last element sulphur ".ele_S"
+save last element chlorin ".ele_Cl"
+save last element iron ".ele_Fe"
+save last element silicon ".ele_Si"
+save last lines emissivity ".emis"
+#depth
+H1-4861.33A
+H1-6562.81A
+O6-1031.91A
+O6-1037.62A
+end of lines
