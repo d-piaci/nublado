@@ -1,10 +1,11 @@
 ////////////////////////////////////
-title model_3
+title model_4
 ////////////////////////////////////
 set punch prefix "model_4"
 distance = 300000000.0 parsecs linear
 print last
 CMB redshift 0.2000000
+CONSTANT TEMPERATURE 1e06 K linear
 stop temperature = 10000K [linear]
 hden -2.5000000
 metals -1
@@ -24,7 +25,7 @@ save last element oxygen ".ele_O"
 save last lines emissivity ".emis"
 H  1  4861.33A
 H  1  6562.81A
-O 6  1031.00A
+O 6  1031.91A
 O  6 1037.62A
 end of lines
 
