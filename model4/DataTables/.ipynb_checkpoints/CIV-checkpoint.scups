@@ -1,0 +1,30 @@
+#coll #comment #value(s)               #1548
+1	Lower level of transition (integer) 	1
+2	Upper level of transition (integer) 	3
+3	Energy of transition, Rydberg (float)	5.942e-01   
+4	Oscillator strength (float) 	3.909e-01   
+5	High-temperature limit value (float)	2.631e+00    
+6	Number of scaled temperatures	8    
+7	BT92 Transition type(integer)	1   
+8	BT92 scaling parameter(float)	2.433e+00
+
+Scaled temperatures(7.20e+03 to 7.20e+07 K)	0.000e+00   1.429e-01   2.857e-01   4.286e-01   5.714e-01   7.143e-01   8.571e-01   1.000e+00
+    Scaled effective collision strengths	5.625e+00   5.272e+00   4.887e+00   4.443e+00   3.964e+00   3.545e+00   3.163e+00   2.631e+00
+                temperatures (unscaled) 	
+
+#coll #comment #value(s)               #1550
+1	Lower level of transition (integer) 	1     
+2	Upper level of transition (integer) 	2
+3	Energy of transition, Rydberg (float)	5.932e-01   
+4	Oscillator strength (float) 	1.947e-01   
+5	High-temperature limit value (float)	1.313e+00  
+6	Number of scaled temperatures	8
+7	BT92 Transition type(integer)	1
+8	BT92 scaling parameter(float)	2.047e+00
+
+Scaled temperatures(7.20e+03 to 7.20e+07 K)	   0.000e+00   1.429e-01   2.857e-01   4.286e-01   5.714e-01   7.143e-01   8.571e-01   1.000e+00
+    Scaled effective collision strengths	2.835e+00   2.689e+00   2.541e+00   2.350e+00   2.120e+00   1.858e+00   1.630e+00   1.313e+00
+                temperatures (unscaled) 	
+              
+
+   

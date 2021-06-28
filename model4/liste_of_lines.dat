@@ -1,0 +1,12 @@
+O  6 1031.91A
+O  6 1037.62A
+O  3 2320.95A  
+O  3 4958.91A  ~Off by[1.094, 1.018, 0.992, 0.956, 0.932] ; (np.log10(OIII_4958) - np.log10(cloudy)),cross
+O  3 5006.84A  
+C  3 977.7620A  ~ calculate emis, Ycal? use chianti? are these collision or photo? how do I determine?
+C  4 1548.19080A  ~"                                                                                 "
+C  4 1551.095220A  ~"                                                                                 "
+
+N  3 989.106600
+N  5 1238.1570
+N  5 1242.078230

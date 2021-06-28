@@ -1,0 +1,43 @@
+////////////////////////////////////
+title model4
+////////////////////////////////////
+set punch prefix "model4"
+distance = 300000000.0 parsecs linear
+print last
+CMB redshift 0.2000000
+CONSTANT TEMPERATURE 5.00000 K Log
+stop temperature = 10K [linear]
+table HM96
+/// [factor=-2]
+hden -2.5
+metals -1
+stop proton column density 15.500000
+no molecules
+iterate
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last heating ".heat"
+save last cooling ".cool"
+save last optical depth ".opd"
+save last element hydrogen ".ele_H"
+save last element oxygen ".ele_O"
+save last element carbon ".ele_C"
+save last lines emissivity ".emis"
+H  1 4861.33A
+H  1 6562.81A
+//O  6 1031.91A
+//O  6 1037.62A
+O  3 2320.95A
+O  3 4958.91A
+O  3 5006.84A
+//C  3 977.7620A
+//C  4 1548.19080A
+//C  4 1551.095220A
+end of lines
+save species column densities ".col"
+"H+"
+"O+2"
+end of species
+save last linelist ".lin" "liste_of_lines.dat"
