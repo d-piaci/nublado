@@ -1,19 +1,18 @@
 ////////////////////////////////////
-title model_4
+title model4
 ////////////////////////////////////
-set punch prefix "model_4"
+set punch prefix "model4"
 distance = 300000000.0 parsecs linear
 print last
 CMB redshift 0.2000000
-CONSTANT TEMPERATURE 1e04 K linear
-stop temperature = 10000K [linear]
-hden -4
+CONSTANT TEMPERATURE 3 K Log
+stop temperature = 10K [linear]
+table HM96 
+hden -2.5
 metals -1
 stop proton column density 15.500000
 no molecules
-table HM96
 iterate
-Print column densities on
 save last radius ".rad"
 save last continuum ".cont"
 save last physical conditions ".phy"
@@ -28,4 +27,10 @@ H  1  4861.33A
 H  1  6562.81A
 O 6  1031.91A
 O  6 1037.62A
+O  3 4958.91A
+O  3 5006.84A
 end of lines
+save species column densities ".col"
+"H+"
+"O+2"
+end of species
