@@ -1,0 +1,26 @@
+////////////////////////////////////
+title model4
+////////////////////////////////////
+set punch prefix "model4"
+distance = 300000000.0 parsecs linear
+print last
+CMB redshift 0.2000000
+CONSTANT TEMPERATURE 6.00000 K Log
+stop temperature = 10K [linear]
+table HM96 
+/// [factor=-2]
+hden -2.5
+metals -1
+stop proton column density 15.500000
+no molecules
+iterate
+save last radius ".rad"
+save last continuum ".cont"
+save last physical conditions ".phy"
+save last overview ".ovr"
+save last element silicon ".ele_Si"
+save last lines emissivity ".emis"
+Si 3 1206.5A 
+Si 4 1393.75A 
+Si 4 1402.77A
+end of lines
